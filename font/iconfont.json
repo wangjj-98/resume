@@ -1,0 +1,58 @@
+{
+  "id": "1727061",
+  "name": "111",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "887979",
+      "name": "学历",
+      "font_class": "xueli",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "900063",
+      "name": "个人信息",
+      "font_class": "gerenxinxi",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "1189645",
+      "name": "求职意向",
+      "font_class": "qiuzhiyixiang",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5613023",
+      "name": "学校",
+      "font_class": "xuexiao",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "564949",
+      "name": "xia",
+      "font_class": "xia",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "2154945",
+      "name": "播放器-播放_44",
+      "font_class": "bofangqi-bofang",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "2154946",
+      "name": "播放器-暂停_44",
+      "font_class": "bofangqi-zanting",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://www.jq22.com/jquery/font-awesome.4.7.0.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+    <link rel="stylesheet" href="./css/time.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/Chart.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top hidden-xs">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="navList col-md-8 col-md-offset-2">
+            <ul>
+              <li>关于我</li>
+              <li>专业技能</li>
+              <li>项目经验</li>
+              <li>个人经历</li>
+              <li>联系我</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="xsnavbar navbar-fixed-top visible-xs">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-1 btnlist"><i class="fa fa-list" aria-hidden="true"></i></div>
+        </div>
+        <ul class="xsUl">
+          <li>关于我</li>
+          <li>专业技能</li>
+          <li>项目经验</li>
+          <li>个人经历</li>
+          <li>联系我</li>
+        </ul>
+      </div>
+    </nav>
+    <div id="music">
+      <span class="musicSpan1 iconfont icon-bofangqi-zanting"></span>
+      <span class="musicSpan2 iconfont icon-bofangqi-bofang"></span>
+    </div>
+    <audio id="bgMusic" src="./music/Summer Salt - Speaking Sonar.mp3">此浏览器，不支持audio</audio>
+    <div id="backTop">
+      <i class="fa  fa-angle-double-up" aria-hidden="true"></i>
+    </div>
+    <div class="home">
+      <div class="home-body">
+        <div class="container">
+          <div class="row">
+            <div class="card col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+              <h1>Hello,I'm Wang</h1>
+              <h3>一位前端“攻城狮”</h3>
+              <h3>喜欢技术，热爱挑战</h3>
+              <div class="btn">
+                <span class="iconfont icon-xia"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section2">
+      <div class="container">
+        <div class="row">
+          <div class="section2-title col-md-4 col-md-offset-4">
+            <h2>关于我</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 message">
+            <span class="iconfont icon-gerenxinxi"></span>
+            <h4>我的信息</h4>
+            <p>姓名：王佳俊 性别：男 <br />年龄：22 籍贯：江西</p>
+          </div>
+          <div class="col-md-3 message">
+            <span class="iconfont icon-xueli"></span>
+            <h4>我的学历</h4>
+            <p>专业：软件技术 <br />学历：专科</p>
+          </div>
+          <div class="col-md-3 message">
+            <span class="iconfont icon-xuexiao"></span>
+            <h4>我的学校</h4>
+            <p>专业：软件技术 <br />学历：专科</p>
+          </div>
+          <div class="col-md-3 message">
+            <span class="fa fa-hand-o-up"></span>
+            <h4>求职意向</h4>
+            <p>前端开发工程师</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section3">
+      <div class="container">
+        <div class="row">
+          <div class="section3-title col-md-4 col-md-offset-4">
+            <h2>专业技能</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <canvas id="myChart" width="400" height="300"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section4">
+      <div class="container">
+        <div class="row">
+          <div class="section4-title col-md-4 col-md-offset-4">
+            <h2>项目经验</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="works col-md-3 col-xs-6 ">
+            <div class="worksTitle">
+              <h4>移动端商城</h4>
+              <p>技术栈:Vue全家桶+Element-UI</p>
+            </div>
+            <img src="./image/women-typing-on-the-notebook-6168.jpg" alt="" />
+          </div>
+          <div class="works col-md-3 col-xs-6  ">
+            <div class="worksTitle">
+              <h4>移动端商城</h4>
+              <p>技术栈:Vue全家桶+Element-UI</p>
+            </div>
+            <img src="./image/women-typing-on-the-notebook-6168.jpg" alt="" />
+          </div>
+          <div class="works col-md-3 col-xs-6  ">
+            <div class="worksTitle">
+              <h4>移动端商城</h4>
+              <p>技术栈:Vue全家桶+Element-UI</p>
+            </div>
+            <img src="./image/women-typing-on-the-notebook-6168.jpg" alt="" />
+          </div>
+          <div class="works col-md-3 col-xs-6  ">
+            <div class="worksTitle">
+              <h4>移动端商城</h4>
+              <p>技术栈:Vue全家桶+Element-UI</p>
+            </div>
+            <img src="./image/women-typing-on-the-notebook-6168.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="section5">
+      <div class="container">
+        <div class="row">
+          <div class="section5-title col-md-4 col-md-offset-4">
+            <h2>个人经历</h2>
+          </div>
+        </div>
+        <div class="about2">
+          <div class="wrapper clearfix-time"></div>
+          <ul class="clearfix-time">
+            <li>
+              <h4 class="f30">2017/9 - 2020/6</h4>
+              <span><大专></span>
+              <p class="f14">
+                就读于九江职业技术学院
+              </p>
+            </li>
+            <li>
+              <h4 class="f30">2020/4</h4>
+              <span><技术部实习生></span>
+              <p class="f14">
+                在宁波世纪恒祥技术有限公司实习<br />
+                负责公司业务页面制作，修改样式。
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="section6">
+      <div class="container">
+        <div class="row">
+          <div class="section6-title col-md-4 col-md-offset-4">
+            <h2>联系我</h2>
+          </div>
+        </div>
+
+        <div class="social-btns">
+          <a class="btn github" href="https://github.com/wangjj-98"><i class="fa fa-github"></i></a>
+          <a class="btn qq" href="javascript:void(0)"><i class="fa fa-qq"></i></a>
+          <a class="btn weixin" href="javascript:void(0)"><i class="fa fa-weixin"></i></a>
+          <a class="btn instagram" href="javascript:void(0)"><i class="fa fa-envelope-o"></i></a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
